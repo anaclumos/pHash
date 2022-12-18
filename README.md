@@ -42,8 +42,8 @@ of `autoconf`.
 
 The simplest way to compile this package is:
 
-1. `cd` to the directory containing the package`s source code and type
-`./configure` to configure the package for your system.
+1. `cd` to the directory containing the package's source code and type
+   `./configure` to configure the package for your system.
 
    Running `configure` might take a while. While running, it prints
    some messages telling which features it is checking for.
@@ -61,7 +61,7 @@ The simplest way to compile this package is:
    files that `configure` created (so you can compile the package for
    a different kind of computer), type `make distclean`. There is
    also a `make maintainer-clean` target, but that is intended mainly
-   for the package`s developers. If you use it, you may have to get
+   for the package's developers. If you use it, you may have to get
    all sorts of other programs in order to regenerate files that came
    with the distribution.
 
@@ -98,8 +98,8 @@ reconfiguring for another architecture.
 
 ## Installation Names
 
-By default, `make install` installs the package`s commands under
-`/usr/local/bin`, include files under `/usr/local/include`, etc.  You
+By default, `make install` installs the package's commands under
+`/usr/local/bin`, include files under `/usr/local/include`, etc. You
 can specify an installation prefix other than `/usr/local`by giving`configure`the option`--prefix=PREFIX`.
 
 You can specify separate installation prefixes for
@@ -217,8 +217,8 @@ suppress all normal output, redirect it to `/dev/null` (any error
 messages will still be shown).
 
 `--srcdir=DIR`
-Look for the package`s source code in directory DIR.  Usually
-     `configure` can determine that directory automatically.
+Look for the package's source code in directory DIR. Usually
+`configure` can determine that directory automatically.
 
 `configure` also accepts some other, not widely useful, options. Run
 `configure --help` for more details.
